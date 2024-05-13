@@ -49,7 +49,7 @@ const WaybillGenerator = () => {
         </div> */}
         <div className="form-group" style={{ textAlign: 'center' }}>
           <button type="button" onClick={handleDisplayBill} style={{ marginRight: '10px' }}>Display Bill</button>
-          <button type="button" onClick={handlePrintBill}>Print Bill</button>
+          <button type="button">Print Bill</button>
         </div>
       </form>
     </div>
