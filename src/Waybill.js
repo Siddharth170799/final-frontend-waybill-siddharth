@@ -23,6 +23,7 @@ const NewWaybillForm = () => {
   const [weight, setWeight] = useState('');
   const [consignmentValue, setConsignmentValue] = useState('');
   const [charges, setCharges] = useState('');
+  const [id,setId]=useState()
  const navigate=useNavigate()
 
   const handleSubmit = (e) => {
