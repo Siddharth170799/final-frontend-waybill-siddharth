@@ -28,7 +28,7 @@ const NewWaybillForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:3000/check/post1",{bookingType,bdCode,destination,consignorName,consignorEmail,consignorPhone,consignorAddress,consignorGST,
+    axios.post("https://atlas-waybill-backend-production.up.railway.app/check/post1",{bookingType,bdCode,destination,consignorName,consignorEmail,consignorPhone,consignorAddress,consignorGST,
         consigneeName,consigneeEmail,consigneePhone,consigneeAddress,consigneeGST,numberOfArticles,weight,consignmentValue,charges
     })
     navigate("/displaywaybill")
