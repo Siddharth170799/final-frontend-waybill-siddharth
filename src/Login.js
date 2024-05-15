@@ -8,7 +8,7 @@ const navigate = useNavigate();
 
   const handleClick = async () => {
     try {
-      await axios.post('https://atlas-waybill-backend-production.up.railway.app/check/send-otp', { email });
+      await axios.post('http://localhost:3000/check/send-otp', { email });
       alert('OTP has been sent to your email.');
       navigate("/otp")
     } catch (error) {

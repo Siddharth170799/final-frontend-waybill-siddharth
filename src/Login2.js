@@ -18,7 +18,7 @@ const OTPVerification = () => {
 
 
 
-axios.get("https://atlas-waybill-backend-production.up.railway.app/check/get")
+axios.get("http://localhost:3000/check/get")
   .then((res) => {
     const data = res.data; 
     console.log(data[0].OTP);

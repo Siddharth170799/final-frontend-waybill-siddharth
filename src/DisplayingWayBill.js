@@ -34,7 +34,7 @@ const WaybillDisplay = ({
 
 
 useEffect(()=>{
-    axios.get("https://atlas-waybill-backend-production.up.railway.app/check/get1")
+    axios.get("http://localhost:3000/check/get1")
     .then((res)=>{
         const details=res.data
         console.log(details)
