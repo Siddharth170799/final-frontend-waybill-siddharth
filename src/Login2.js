@@ -18,7 +18,7 @@ const OTPVerification = () => {
 
 
 
-axios.get("http://localhost:3000/check/get")
+axios.get("https://way-bill-frontend-new-siddharth.onrender.com/check/get")
   .then((res) => {
     const data = res.data; 
     console.log(data[0].OTP);
