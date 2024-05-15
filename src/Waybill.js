@@ -28,7 +28,7 @@ const NewWaybillForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("https://way-bill-frontend-new-siddharth.onrender.com/check/post1",{bookingType,bdCode,destination,consignorName,consignorEmail,consignorPhone,consignorAddress,consignorGST,
+    axios.post("https://waybill-backend-new-siddharth.onrender.com/check/post1",{bookingType,bdCode,destination,consignorName,consignorEmail,consignorPhone,consignorAddress,consignorGST,
         consigneeName,consigneeEmail,consigneePhone,consigneeAddress,consigneeGST,numberOfArticles,weight,consignmentValue,charges
     })
     navigate("/displaywaybill")

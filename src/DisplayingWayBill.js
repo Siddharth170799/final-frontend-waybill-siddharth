@@ -34,7 +34,7 @@ const WaybillDisplay = ({
 
 
 useEffect(()=>{
-    axios.get("https://way-bill-frontend-new-siddharth.onrender.com/check/get1")
+    axios.get("https://waybill-backend-new-siddharth.onrender.com/check/get1")
     .then((res)=>{
         const details=res.data
         console.log(details)
